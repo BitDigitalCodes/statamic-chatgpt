@@ -1,0 +1,26 @@
+api_key:
+  display: 'OpenAI API Key'
+  type: text
+  instructions: 'Enter your OpenAI API key. If you want to use ChatGPT-4 you will need an API that supports that. https://platform.openai.com/signup'
+  instructions_position: above
+model:
+  display: 'ChatGPT Model to use'
+  type: select
+  options:
+    gpt-3.5-turbo: null
+    gpt-4: null
+    text-davinci-003: null
+    code-davinci-002: null
+  instructions: 'gpt-3.5-turbo is the default model. gpt-4 is much more powerful but costs more per request. You will need to have made a successful payment on the platform before you can use gpt-4. https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4'
+  instructions_position: above
+max_tokens:
+  display: 'Max Tokens'
+  type: integer
+  default: 4096
+  instructions: 'The maximum number of tokens to generate. The tokens are used up between both completions (the response) AND the prompt. One token is roughly 4 characters for normal English text. The maximum number of tokens differs per model. See https://platform.openai.com/docs/models/overview for more information.'
+  instructions_position: above
+prompt_preface:
+  display: 'Prompt training'
+  type: textarea
+  instructions: 'ChatGPT works the best when you tell it how you want it to behave before asking for the actual content. For example, if you run an online magazine about chemistry you might want to tell ChatGPT that it is a scientist with a background in chemistry, to give it context. You can use this area to preface all requests with this prompt. Try and keep it short though, as it will use up your tokens on each request.'
+  placeholder: 'You are an expert in gardening and nature, with a successful history of writing for online gardening magazines. You write compelling articles, that are SEO-optimized, and include links to relevant external websites.'

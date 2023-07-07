@@ -1,0 +1,30 @@
+{
+    "name": "bitdigital/statamic-chatgpt",
+    "autoload": {
+        "psr-4": {
+            "Bitdigital\\StatamicChatgpt\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "ChatGPT",
+            "description": "ChatGPT addon that allows you to add AI-generated content to your website. Supports adding content to the editor, supporting multiple models."
+        },
+        "laravel": {
+            "providers": [
+                "Bitdigital\\StatamicChatgpt\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "edalzell/forma": "^2.0",
+        "openai-php/laravel": "^0.6.0",
+        "ueberdosis/tiptap-php": "^1.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true,
+            "php-http/discovery": true
+        }
+    }
+}
