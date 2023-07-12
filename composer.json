@@ -1,5 +1,5 @@
 {
-    "name": "bitdigital/statamic-chatgpt",
+    "name": "bitdigitalcodes/statamic-chatgpt",
     "autoload": {
         "psr-4": {
             "Bitdigital\\StatamicChatgpt\\": "src"
