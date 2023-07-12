@@ -1,5 +1,4 @@
 import ChatGPT from './components/ChatGPT.vue';
-console.log('TTTTTEEEESSSSTT')
 Statamic.$bard.buttons(() => {
     return {
         name: 'chatgpt',

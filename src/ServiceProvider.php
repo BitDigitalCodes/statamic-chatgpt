@@ -30,6 +30,6 @@ class ServiceProvider extends AddonServiceProvider
         });
 
         // Register our Forma CP config view
-        Forma::add('bitdigital/statamic-chatgpt');
+        Forma::add('bitdigitalcodes/statamic-chatgpt');
     }
 }
