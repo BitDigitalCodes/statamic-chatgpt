@@ -13,6 +13,22 @@ Some headline features:
 - Configure the maximum number of tokens to be used with each prompt in order to manage your spend
 - Manage your API key and various options from within the dashboard
 
+### Settings
+![Screenshot](https://bitdigital.co.uk/statamic-chatgpt/statamic-chatgpt-screenshot-1.png)
+
+### Icon added to Bard editor
+![Screenshot](https://bitdigital.co.uk/statamic-chatgpt/statamic-chatgpt-screenshot-2.png)
+
+### Modal allows you to generate a full article or just a paragraph
+![Screenshot](https://bitdigital.co.uk/statamic-chatgpt/statamic-chatgpt-screenshot-3.png)
+
+### Fully formatted article is added to Bard, ready for you to use or edit
+![Screenshot](https://bitdigital.co.uk/statamic-chatgpt/statamic-chatgpt-screenshot-4.png)
+
+### Also generate a single paragraph
+![Screenshot](https://bitdigital.co.uk/statamic-chatgpt/statamic-chatgpt-screenshot-video-optimized-1.gif)
+
+
 ## How to Install
 
 You can search for this addon in the `Tools > Addons` section of the Statamic control panel and click **install**, or run the following command from your project root:
