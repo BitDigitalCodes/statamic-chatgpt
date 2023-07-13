@@ -61,5 +61,4 @@ ChatGPT takes time to generate a response. We wait 2 minutes before giving up, t
 
 > I'm getting an [Object object] error pop-up when using.
 
-We try and handle all errors returned by the ChatGPT API gracefully, but any new ones, or if the API itself is down (which happens a lot) may results in this error. Check your `/storage/logs/laravel.log` file for more info on what's wrong.
-
+Please let us know what steps you took for this to happen. We handle all errors gracefully, and any that are introduced by the API should be displayed to you. If you're getting this error then it's likely something we haven't accounted for. Please raise an issue on Github and we'll look into it.
