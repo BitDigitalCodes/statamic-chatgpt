@@ -55,6 +55,8 @@ You will need to add your API key before the addon will work.
 
 You probably haven't set up your API key properly in the control panel. Head to https://platform.openai.com/signup, get an API key, and carefully copy it across. You may also be using an API key that doesn't support ChatGPT 4, in which case try selecting a different model.
 
+Although ChatGPT 4 is now generally available in the API, OpenAI does require a payment to have been made, so it won't work in the trial. If you want to use the trial without adding a payment method then you will need to use a different model.
+
 > After about 2 minutes I get a message about the API timing out.
 
 ChatGPT takes time to generate a response. We wait 2 minutes before giving up, this is usually plenty of time to get the response but if the API is under extreme load or is down then you may need to try again. If it persists check OpenAI status: https://status.openai.com/ 
