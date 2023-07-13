@@ -81,11 +81,11 @@ export default {
                     if (response?.data?.text) {
                         Statamic.$toast.success(__('Your content has been generated.'));
                     } else {
-                        Statamic.$toast.error(response.data);
+                        Statamic.$toast.error(response.data.error || __('Something went wrong.'), { duration: 10000 });
                     }
                 }
             }).catch(function (error) {
-                Statamic.$toast.error(error?.response?.data || error.message);
+                Statamic.$toast.error(error?.response?.data.error || error.message || __('Something went wrong.'), { duration: 10000 });
             }).finally(function () {
                 that.editor.commands.focus();
                 that.editor.setEditable(true);

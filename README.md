@@ -52,7 +52,14 @@ You will need to add your API key before the addon will work.
 ## Troubleshooting
 
 > I'm getting an error mentioning my API key.
+
 You probably haven't set up your API key properly in the control panel. Head to https://platform.openai.com/signup, get an API key, and carefully copy it across. You may also be using an API key that doesn't support ChatGPT 4, in which case try selecting a different model.
 
+> After about 2 minutes I get a message about the API timing out.
+
+ChatGPT takes time to generate a response. We wait 2 minutes before giving up, this is usually plenty of time to get the response but if the API is under extreme load or is down then you may need to try again. If it persists check OpenAI status: https://status.openai.com/ 
+
 > I'm getting an [Object object] error pop-up when using.
+
 We try and handle all errors returned by the ChatGPT API gracefully, but any new ones, or if the API itself is down (which happens a lot) may results in this error. Check your `/storage/logs/laravel.log` file for more info on what's wrong.
+

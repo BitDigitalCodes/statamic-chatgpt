@@ -18,7 +18,7 @@ class OpenAIService {
             'openai.request_timeout' => 120,
         ]);
 
-        if($type == 'full') {
+        if($type === 'full') {
             $lengthPrompt = 'You write full articles, at least 1,000 words long. Use titles and subtitles where appropriate.';
             $finalPrompt = 'Write me an SEO optimised article, with links to relevant websites included called: '. $title;
         } else {
