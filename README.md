@@ -5,13 +5,14 @@
 ## Features
 
 Some headline features:
-- Generate a complete article from a single prompt
-- Generate shorter single paragraphs for when you need help with a portion of an article
-- Supports ChatGPT 3.5-turbo, and ChatGPT 4
-- Will support future versions when they become available
-- Add site-wide context to your prompts to get more tailored responses (for example, configure ChatGPT to think it is an expert on writing SEO-optimised articles about gardening, if that's your thing)
-- Configure the maximum number of tokens to be used with each prompt in order to manage your spend
-- Manage your API key and various options from within the dashboard
+
+* Generate a complete article from a single prompt
+* Generate shorter single paragraphs for when you need help with a portion of an article
+* Supports ChatGPT 3.5-turbo, and ChatGPT 4
+* Will support future versions when they become available
+* Add site-wide context to your prompts to get more tailored responses (for example, configure ChatGPT to think it is an expert on writing SEO-optimised articles about gardening, if that's your thing)
+* Configure the maximum number of tokens to be used with each prompt in order to manage your spend
+* Manage your API key and various options from within the dashboard
 
 ### Settings
 ![Screenshot](https://bitdigital.co.uk/statamic-chatgpt/statamic-chatgpt-screenshot-1.png)
