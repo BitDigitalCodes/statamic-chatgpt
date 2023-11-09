@@ -22,7 +22,7 @@ class ServiceProvider extends AddonServiceProvider
         // Publishable config, we use Forma to populate this properly within the CP
         $this->publishes([
             __DIR__.'/../config/statamic-chatgpt.php' => config_path('statamic-chatgpt.php')
-        ], 'statamic-chatgpt-config');
+        ], 'statamic-chatgpt');
 
         // Route that accepts the prompt from the Bard fieldtype, then returns the response to the editor
         $this->registerActionRoutes(function () {
