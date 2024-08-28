@@ -7,11 +7,13 @@ model:
   display: 'ChatGPT Model to use'
   type: select
   options:
+    gpt-4o: null
+    gpt-4o-mini: null
     gpt-3.5-turbo: null
     gpt-4: null
     text-davinci-003: null
     code-davinci-002: null
-  instructions: 'gpt-3.5-turbo is the default model. gpt-4 is much more powerful but costs more per request. You will need to have made a successful payment on the platform before you can use gpt-4. https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4'
+  instructions: 'gpt-4o is the default model. gpt-4o-mini is a smaller model, but much cheaper. Ensure you have bought at least $5 of credit on your API account first: https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini#h_f472fd7cbc'
   instructions_position: above
 max_tokens:
   display: 'Max Tokens'
