@@ -6,6 +6,7 @@ use Bitdigital\StatamicChatgpt\Controllers\StatamicChatgptBardController;
 use Illuminate\Support\Facades\Route;
 use Statamic\Providers\AddonServiceProvider;
 use Edalzell\Forma\Forma;
+use Edalzell\Forma\ConfigController;
 
 class ServiceProvider extends AddonServiceProvider
 {
@@ -30,6 +31,10 @@ class ServiceProvider extends AddonServiceProvider
         });
 
         // Register our Forma CP config view
-        Forma::add('bitdigitalcodes/statamic-chatgpt');
+        Forma::add(
+            'bitdigitalcodes/statamic-chatgpt',
+            ConfigController::class,
+            'statamic-chatgpt'
+        );
     }
 }

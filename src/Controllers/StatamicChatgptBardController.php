@@ -2,7 +2,7 @@
 
 namespace Bitdigital\StatamicChatgpt\Controllers;
 
-use Illuminate\Http\Request;;
+use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use Bitdigital\StatamicChatgpt\Services\OpenAIService;
 use Tiptap\Editor;
