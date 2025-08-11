@@ -8,7 +8,7 @@ Some headline features:
 
 * Generate a complete article from a single prompt
 * Generate shorter single paragraphs for when you need help with a portion of an article
-* Supports GPT4o, GPT4o-Mini, ChatGPT 3.5-turbo, and ChatGPT 4
+* Supports GPT5, GPT5-Mini, GPT5-Nano, GPT4o, GPT4o-Mini, ChatGPT 3.5-turbo, and ChatGPT 4
 * Will support future versions when they become available
 * Add site-wide context to your prompts to get more tailored responses (for example, configure ChatGPT to think it is an expert on writing SEO-optimised articles about gardening, if that's your thing)
 * Configure the maximum number of tokens to be used with each prompt in order to manage your spend
@@ -44,7 +44,7 @@ You will need to add your API key before the addon will work.
 
 1. Once installed you should see a new 'ChatGPT' menu option on the left of the control panel. Click it.
 2. Enter your API key (https://platform.openai.com/signup if you don't have one already).
-3. Select the model to use. If you're opting for ChatGPT 4 you may need to make a payment to get access.
+3. Select the model to use. Some of the later models may need to make a payment to get access.
 4. Select the max tokens, or use defaults.
 5. Give ChatGPT a bit of context about your site and the text you want it to write.
 6. Save the config.
@@ -54,9 +54,11 @@ You will need to add your API key before the addon will work.
 
 > I'm getting an error mentioning my API key.
 
-You probably haven't set up your API key properly in the control panel. Head to https://platform.openai.com/signup, get an API key, and carefully copy it across. You may also be using an API key that doesn't support ChatGPT 4, in which case try selecting a different model.
+You probably haven't set up your API key properly in the control panel. Head to https://platform.openai.com/signup, get an API key, and carefully copy it across. You may also be using an API key that doesn't support the model you want to use, in which case try selecting a different model.
 
-Although ChatGPT 4 is now generally available in the API, OpenAI does require a payment to have been made, so it won't work in the trial. If you want to use the trial without adding a payment method then you will need to use a different model.
+You may need to make a payment before some of the models will work. OpenAI removed the need to do this but there have been some user-land reports of still needing to do it.
+
+Ensure your API key is valid for the models you want to use and you have sufficient credit.
 
 > After about 2 minutes I get a message about the API timing out.
 
